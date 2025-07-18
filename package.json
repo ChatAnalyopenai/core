@@ -75,7 +75,7 @@
     "@vue/consolidate": "1.0.0",
     "conventional-changelog-cli": "^5.0.0",
     "enquirer": "^2.4.1",
-    "esbuild": "^0.23.0",
+    "esbuild": "^0.25.0",
     "esbuild-plugin-polyfill-node": "^0.3.0",
     "eslint": "^9.9.0",
     "eslint-plugin-import-x": "^3.1.0",
@@ -94,7 +94,7 @@
     "pug": "^3.0.3",
     "puppeteer": "~23.0.2",
     "rimraf": "^6.0.1",
-    "rollup": "^4.20.0",
+    "rollup": "^4.22.4",
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-esbuild": "^6.1.1",
     "rollup-plugin-polyfill-node": "^0.13.0",
@@ -108,7 +108,7 @@
     "typescript": "~5.5.4",
     "typescript-eslint": "^8.0.1",
     "vite": "catalog:",
-    "vitest": "^2.0.5"
+    "vitest": "^2.1.9"
   },
   "pnpm": {
     "peerDependencyRules": {

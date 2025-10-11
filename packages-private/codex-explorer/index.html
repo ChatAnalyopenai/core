@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue Codex Explorer</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Vue Codex Explorer</h1>
+        <p>Explore how Vue generates code frames for error reporting</p>
+      </header>
+
+      <div class="container">
+        <div class="editor-section">
+          <h2>Source Code</h2>
+          <textarea
+            id="source"
+            placeholder="Enter your source code here..."
+            rows="15"
+          >
+function greet(name) {
+  console.log('Hello, ' + name);
+  return 'Hello, ' + name;
+}</textarea
+          >
+        </div>
+
+        <div class="controls">
+          <div class="control-group">
+            <label for="start">Start Position:</label>
+            <input type="number" id="start" value="24" min="0" />
+          </div>
+          <div class="control-group">
+            <label for="end">End Position:</label>
+            <input type="number" id="end" value="42" min="0" />
+          </div>
+          <button id="generate">Generate Code Frame</button>
+        </div>
+
+        <div class="output-section">
+          <h2>Generated Code Frame</h2>
+          <pre id="output"></pre>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
